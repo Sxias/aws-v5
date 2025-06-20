@@ -22,7 +22,7 @@ public class BookApiController {
     // ELB가 EC2에 jar 배포 후 /로 Health Check >> 서버 구동 확인
     @GetMapping("/")
     public String home() {
-        return "<h1>aws-v5</h1>";
+        return "<h1>aws-v10</h1>";
     }
 
     @PostMapping("/api/book")
